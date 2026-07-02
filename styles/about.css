@@ -1,0 +1,52 @@
+.about-section {
+    background-color: var(--bg-main-grey);
+    text-align: center;
+    padding: 58px 30px 98px 30px;
+    color: var(--color-main-black);
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 34px;
+    margin: 0 auto 42px auto;
+}
+
+.sub-about-title {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0 auto 11px auto;
+    max-width: 780px;
+}
+
+.sub-about-title-english {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 15px auto 8px auto;
+    max-width: 780px;
+}
+
+.about-description {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0 auto 16px auto;
+    text-align: justify;
+    max-width: 780px;
+}
+
+.about-description-english {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: justify;
+    max-width: 780px;
+}
+
+@media (max-width: 480px) {
+
+    .sub-about-title,
+    .sub-about-title-english,
+    .about-description,
+    .about-description-english {
+        font-size: 14px;
+    }
+}
